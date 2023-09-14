@@ -30,10 +30,10 @@
         {
             gpbxDetalles = new GroupBox();
             nrupdmEdad = new NumericUpDown();
-            txtApellido = new TextBox();
+            txtDireccion = new TextBox();
             txtNombre = new TextBox();
             lblEdad = new Label();
-            lblApelido = new Label();
+            lblDireccion = new Label();
             lblNombre = new Label();
             grpbxGenero = new GroupBox();
             rdbtnGeneroTres = new RadioButton();
@@ -55,10 +55,10 @@
             // gpbxDetalles
             // 
             gpbxDetalles.Controls.Add(nrupdmEdad);
-            gpbxDetalles.Controls.Add(txtApellido);
+            gpbxDetalles.Controls.Add(txtDireccion);
             gpbxDetalles.Controls.Add(txtNombre);
             gpbxDetalles.Controls.Add(lblEdad);
-            gpbxDetalles.Controls.Add(lblApelido);
+            gpbxDetalles.Controls.Add(lblDireccion);
             gpbxDetalles.Controls.Add(lblNombre);
             gpbxDetalles.Location = new Point(12, 12);
             gpbxDetalles.Name = "gpbxDetalles";
@@ -77,12 +77,12 @@
             nrupdmEdad.TabIndex = 7;
             nrupdmEdad.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
-            // txtApellido
+            // txtDireccion
             // 
-            txtApellido.Location = new Point(74, 43);
-            txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(120, 23);
-            txtApellido.TabIndex = 6;
+            txtDireccion.Location = new Point(74, 43);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(120, 23);
+            txtDireccion.TabIndex = 6;
             // 
             // txtNombre
             // 
@@ -100,14 +100,14 @@
             lblEdad.TabIndex = 5;
             lblEdad.Text = "Edad";
             // 
-            // lblApelido
+            // lblDireccion
             // 
-            lblApelido.AutoSize = true;
-            lblApelido.Location = new Point(6, 46);
-            lblApelido.Name = "lblApelido";
-            lblApelido.Size = new Size(51, 15);
-            lblApelido.TabIndex = 4;
-            lblApelido.Text = "Apellido";
+            lblDireccion.AutoSize = true;
+            lblDireccion.Location = new Point(6, 46);
+            lblDireccion.Name = "lblDireccion";
+            lblDireccion.Size = new Size(57, 15);
+            lblDireccion.TabIndex = 4;
+            lblDireccion.Text = "Direccion";
             // 
             // lblNombre
             // 
@@ -250,6 +250,7 @@
             Name = "FrmIngresante";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Formulario Ingresante";
+            Load += FrmIngresante_Load;
             gpbxDetalles.ResumeLayout(false);
             gpbxDetalles.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nrupdmEdad).EndInit();
@@ -264,10 +265,10 @@
         #endregion
 
         private GroupBox gpbxDetalles;
-        private TextBox txtApellido;
+        private TextBox txtDireccion;
         private TextBox txtNombre;
         private Label lblEdad;
-        private Label lblApelido;
+        private Label lblDireccion;
         private Label lblNombre;
         private GroupBox grpbxGenero;
         private GroupBox grpbxCursos;
