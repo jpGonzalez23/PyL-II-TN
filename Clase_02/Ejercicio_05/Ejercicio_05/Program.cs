@@ -8,15 +8,18 @@ namespace Ejercicio_05
         {
             Console.Title = "Clase 02 - Ejercicio_05";
 
+            // Declaracion de variable
             int opcion;
             double ladoCuadrado;
             double alturaTriangulo;
             double baseTriangulo;
             double radioCirculo;
 
+            // Ingreso de opcion a elegir 
             Console.Write("Seleccione una opcion:\n1)Calculo del area del cuadrado\n2)Calculo del area del triangulo\n3)Calculo del area del circulo\n");
             int.TryParse(Console.ReadLine(), out opcion);
 
+            
             switch (opcion)
             {
                 case 1:
