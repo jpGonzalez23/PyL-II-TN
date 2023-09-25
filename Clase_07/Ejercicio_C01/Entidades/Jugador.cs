@@ -12,7 +12,6 @@ namespace Entidades
         private int totalGoles;
         private int partidosJugados;
         private string nombre;
-        private float promedioGoles;
 
         public int Dni 
         {
@@ -64,7 +63,7 @@ namespace Entidades
         { 
             get
             {
-                return this.promedioGoles = (float)this.totalGoles / this.partidosJugados;
+                return (float)this.totalGoles / this.partidosJugados;
             } 
         }
 
@@ -72,7 +71,6 @@ namespace Entidades
         {
             this.totalGoles = 0;
             this.partidosJugados = 0;
-            this.promedioGoles = 0;
         }
 
         public Jugador(int dni, string nombre) : this()
@@ -99,7 +97,6 @@ namespace Entidades
 
             return sb.ToString();
         }
-
 
         public static bool operator ==(Jugador j1, Jugador j2)
         {
