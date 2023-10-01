@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C01\\Ejecicio_C01\\Ejecicio_C01.csproj",
-      "projectName": "Ejecicio_C01",
-      "projectPath": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C01\\Ejecicio_C01\\Ejecicio_C01.csproj",
+      "projectUniqueName": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C01\\Ejecicio_C01\\Ejercicio_C01.csproj",
+      "projectName": "Ejercicio_C01",
+      "projectPath": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C01\\Ejecicio_C01\\Ejercicio_C01.csproj",
       "packagesPath": "C:\\Users\\juan pablo gonzalez\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C01\\Ejecicio_C01\\obj\\",
       "projectStyle": "PackageReference",

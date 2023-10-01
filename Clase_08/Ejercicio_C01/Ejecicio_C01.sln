@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejecicio_C01", "Ejecicio_C01\Ejecicio_C01.csproj", "{1316D62A-C519-40BD-AA49-D77183EF38EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_C01", "Ejecicio_C01\Ejercicio_C01.csproj", "{1316D62A-C519-40BD-AA49-D77183EF38EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{8F462D59-ACE0-4EB6-B0A8-87BE148BAABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{8F462D59-ACE0-4EB6-B0A8-87BE148BAABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
