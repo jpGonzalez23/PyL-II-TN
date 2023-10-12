@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\juan pablo gonzalez\\.nuget\\packages\\": {}
+    "C:\\Users\\juanp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C03\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_08\\Ejercicio_C03\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C03\\Entidades\\Entidades.csproj",
-      "packagesPath": "C:\\Users\\juan pablo gonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juan pablo gonzalez\\Documents\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Clase_08\\Ejercicio_C03\\Entidades\\obj\\",
+      "projectPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_08\\Ejercicio_C03\\Entidades\\Entidades.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_08\\Ejercicio_C03\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\juan pablo gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

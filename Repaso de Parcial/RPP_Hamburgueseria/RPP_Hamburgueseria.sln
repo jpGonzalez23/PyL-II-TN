@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPP_Hamburgueseria", "RPP_Hamburgueseria\RPP_Hamburgueseria.csproj", "{F7CA04A0-059C-47B2-BA0D-C7EDA1B326F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{197B0B43-93BB-4912-9685-29F54746F99F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F7CA04A0-059C-47B2-BA0D-C7EDA1B326F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7CA04A0-059C-47B2-BA0D-C7EDA1B326F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7CA04A0-059C-47B2-BA0D-C7EDA1B326F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197B0B43-93BB-4912-9685-29F54746F99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197B0B43-93BB-4912-9685-29F54746F99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197B0B43-93BB-4912-9685-29F54746F99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197B0B43-93BB-4912-9685-29F54746F99F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
