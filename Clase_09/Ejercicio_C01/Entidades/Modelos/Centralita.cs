@@ -58,30 +58,37 @@ namespace Entidades.Modelos
 
         private float CalcularGanancias(ETipoLlamda tipo)
         {
-            float ganancia = 0;
+            float gananciaLocal = 0;
+            float gananciaProvincial = 0;
 
-            foreach (Llamada item in listaDeLlamada)
+            foreach (Llamada item in this.listaDeLlamada)
             {
-                if (tipo == ETipoLlamda.Local)
+                if (item is Local)
                 {
-                    ganancia *= item.Duracion;
+                    gananciaLocal += ((Local)item).CostoLlamada;
                 }
-                else if (tipo == ETipoLlamda.Provincia)
+                else if (item is Provincial)
                 {
-                    ganancia *= item.Duracion;
-                }
-                else
-                {
-                    ganancia *= item.Duracion;
+                    gananciaProvincial += ((Provincial)item).CostoLlamada;
                 }
             }
 
-            return ganancia;
+            switch (tipo)
+            {
+                case ETipoLlamda.Local:
+                    return gananciaLocal;
+                    break;
+                case ETipoLlamda.Provincia:
+                    return gananciaProvincial;
+                    break;
+                default:
+                    return gananciaLocal + gananciaProvincial;
+            }
         }
 
         public void OrdenarLlamadas()
         {
-            this.listaDeLlamada.Sort();
+            this.listaDeLlamada.Sort(Llamada.OrdernarPorDuracion);
         }
 
         private string Mostrar()

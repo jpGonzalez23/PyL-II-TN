@@ -9,7 +9,12 @@ namespace Entidades.Modelos
 {
     public class Provincial : Llamada
     {
-        
+        public enum EFranja
+        {
+            Franja_1,
+            Franja_2,
+            Franja_3,
+        };
 
         protected EFranja franja;
 

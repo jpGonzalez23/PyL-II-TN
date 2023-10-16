@@ -6,8 +6,6 @@ C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejerc
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\bin\Debug\net6.0-windows\Entidades.dll
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\bin\Debug\net6.0-windows\Entidades.pdb
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.csproj.AssemblyReference.cache
-C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.FrmLlamada.resources
-C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.FrmMostrar.resources
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.csproj.GenerateResource.cache
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.AssemblyInfoInputs.cache
@@ -19,3 +17,6 @@ C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejerc
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.pdb
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.genruntimeconfig.cache
 C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\ref\Ejercicio_C01.dll
+C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.FrmLlamador.resources
+C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.FrmMenu.resources
+C:\Users\juanp\OneDrive\Documentos\Facultad\Segundo Cuatrimestre\PyL-II-TN\Ejercios\Clase_09\Ejercicio_C01\Ejercicio_C01\obj\Debug\net6.0-windows\Ejercicio_C01.FrmMostar.resources

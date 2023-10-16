@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio_C01
 {
-    partial class FrmLlamada
+    partial class FrmMenu
     {
         /// <summary>
         ///  Required designer variable.
@@ -43,6 +43,7 @@
             btnGenerarLlamada.TabIndex = 0;
             btnGenerarLlamada.Text = "Generar Llamada";
             btnGenerarLlamada.UseVisualStyleBackColor = true;
+            btnGenerarLlamada.Click += btnGenerarLlamada_Click;
             // 
             // btnFacturaTotal
             // 
@@ -52,6 +53,7 @@
             btnFacturaTotal.TabIndex = 1;
             btnFacturaTotal.Text = "Factura Total";
             btnFacturaTotal.UseVisualStyleBackColor = true;
+            btnFacturaTotal.Click += btnFacturaTotal_Click;
             // 
             // btnFacturaLocal
             // 
@@ -61,6 +63,7 @@
             btnFacturaLocal.TabIndex = 2;
             btnFacturaLocal.Text = "Factura Local";
             btnFacturaLocal.UseVisualStyleBackColor = true;
+            btnFacturaLocal.Click += btnFacturaLocal_Click;
             // 
             // btnFacturaProvincial
             // 
@@ -70,6 +73,7 @@
             btnFacturaProvincial.TabIndex = 3;
             btnFacturaProvincial.Text = "Factura Provincial";
             btnFacturaProvincial.UseVisualStyleBackColor = true;
+            btnFacturaProvincial.Click += btnFacturaProvincial_Click;
             // 
             // btnSalir
             // 
@@ -79,8 +83,9 @@
             btnSalir.TabIndex = 4;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
-            // FrmLlamada
+            // FrmMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -93,9 +98,10 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "FrmLlamada";
+            Name = "FrmMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu Llamada";
+            Load += FrmLlamada_Load;
             ResumeLayout(false);
         }
 
