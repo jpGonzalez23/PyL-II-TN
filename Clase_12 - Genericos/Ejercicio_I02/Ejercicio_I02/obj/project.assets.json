@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_13\\Ejercicio_I02\\Ejercicio_I02\\Ejercicio_I02.csproj",
+      "projectUniqueName": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_12 - Genericos\\Ejercicio_I02\\Ejercicio_I02\\Ejercicio_I02.csproj",
       "projectName": "Ejercicio_I02",
-      "projectPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_13\\Ejercicio_I02\\Ejercicio_I02\\Ejercicio_I02.csproj",
+      "projectPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_12 - Genericos\\Ejercicio_I02\\Ejercicio_I02\\Ejercicio_I02.csproj",
       "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_13\\Ejercicio_I02\\Ejercicio_I02\\obj\\",
+      "outputPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_12 - Genericos\\Ejercicio_I02\\Ejercicio_I02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_13\\Ejercicio_I02\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_13\\Ejercicio_I02\\Entidades\\Entidades.csproj"
+            "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_12 - Genericos\\Ejercicio_I02\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_12 - Genericos\\Ejercicio_I02\\Entidades\\Entidades.csproj"
             }
           }
         }
