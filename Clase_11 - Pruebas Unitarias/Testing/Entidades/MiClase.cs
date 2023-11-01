@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entidades
+{
+    public class MiClase
+    {
+        /// <summary>
+        /// Constructor de instancia
+        /// </summary>
+        /// <exception cref="UnaExcepcion"></exception>
+        public MiClase()
+        {
+            try
+            {
+                MetodoEstatico();
+            }
+            catch (DivideByZeroException ex)
+            {
+                throw new MiExcepcion("Error en el método estático", ex); ;
+            }
+        }
+
+        /// <summary>
+        /// Sobrecarga del constructor
+        /// </summary>
+        /// <param name="ex"></param>
+        /// <exception cref="UnaExcepcion"></exception>
+        public MiClase(int id)
+        {
+            try
+            {
+                new MiClase();
+            }
+            catch (MiExcepcion miEx)
+            {
+                throw new UnaExcepcion("Error en el constructor MiClase(bool) que lanza UnaExcepcion.", miEx);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <exception cref="DivideByZeroException"></exception>
+        public static void MetodoEstatico()
+        {
+            throw new DivideByZeroException("Error en el método estático. De MiClase().");
+        }
+    }
+}
