@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lABWolhs6E2c9GfwX7I42SGJfFyGXXvQz068K9lePAjlX6VoxOcpbh7+unAN7l6DZA/EOmURWowfUaJjlathLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_19 - Programacion Multi-hilo\\Ejercicio_I02\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juanp\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\juanp\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

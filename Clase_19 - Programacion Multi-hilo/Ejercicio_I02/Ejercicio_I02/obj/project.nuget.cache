@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mr7/XRNdwEya7xsqz+Aj7vyzJFOQFTMl7m3vND8E0rTMvRtgNO7WAiFOUnFWHLFIsHXKC5EQjC0F5Yuhi3yMmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\juanp\\OneDrive\\Documentos\\Facultad\\Segundo Cuatrimestre\\PyL-II-TN\\Ejercios\\Clase_19 - Programacion Multi-hilo\\Ejercicio_I02\\Ejercicio_I02\\Ejercicio_I02.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juanp\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\juanp\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

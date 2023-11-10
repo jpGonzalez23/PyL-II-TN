@@ -16,7 +16,7 @@ namespace Ejercicio_I01
 
         private void FrmView_Load(object sender, EventArgs e)
         {
-            this.ActualizarListBox();
+            //this.ActualizarListBox();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -27,20 +27,20 @@ namespace Ejercicio_I01
                 string apellido = txtApellido.Text;
                 this.persona = new Persona(nombre, apellido);
                 personaDAO.Guardar(this.persona);
-                ActualizarListBox();
-                LimpiarCampos();
+                //ActualizarListBox();
+                //LimpiarCampos();
             }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (persona != null)
-            {
-                int id = persona.Id;
-                personaDAO.Eliminar(id);
-                ActualizarListBox();
-                LimpiarCampos();
-            }
+            //if (persona != null)
+            //{
+            //    int id = persona.Id;
+            //    personaDAO.el(id);
+            //    ActualizarListBox();
+            //    LimpiarCampos();
+            //}
         }
 
         private void btnLeerPorId_Click(object sender, EventArgs e)
@@ -50,28 +50,28 @@ namespace Ejercicio_I01
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            if (persona != null)
-            {
-                persona.Nombre = txtNombre.Text;
-                persona.Apellido = txtApellido.Text;
-                personaDAO.Modificar(persona);
-                ActualizarListBox();
-                LimpiarCampos();
-            }
+            //if (persona != null)
+            //{
+            //    persona.Nombre = txtNombre.Text;
+            //    persona.Apellido = txtApellido.Text;
+            //    personaDAO.Modificar(persona);
+            //    ActualizarListBox();
+            //    LimpiarCampos();
+            //}
         }
 
         private void ActualizarListBox()
         {
-            lstPersona.DataSource = null;
-            lstPersona.DataSource = personaDAO.Leer();
-            LimpiarCampos();
+            //lstPersona.DataSource = null;
+            //lstPersona.DataSource = personaDAO.Leer();
+            //LimpiarCampos();
         }
 
         private void LimpiarCampos()
         {
-            txtNombre.Text = "";
-            txtApellido.Text = "";
-            persona = null;
+            //txtNombre.Text = "";
+            //txtApellido.Text = "";
+            //persona = null;
         }
 
         

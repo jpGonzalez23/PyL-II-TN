@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades.Exception
 {
-    public class ExceptionPersonaDAO : IOException
+    public class ExceptionPersonaDAO : System.Exception
     {
         public ExceptionPersonaDAO(string? message) : base(message)
         {

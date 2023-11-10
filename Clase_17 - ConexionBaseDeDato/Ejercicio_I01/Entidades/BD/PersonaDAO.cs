@@ -12,7 +12,7 @@ namespace Entidades.BD
 {
     public class PersonaDAO
     {
-        private static SqlConnection connection;
+        //private static SqlConnection connection;
         private static string path;
 
         static PersonaDAO()
@@ -22,22 +22,56 @@ namespace Entidades.BD
 
         public void Guardar(Persona persona)
         {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(PersonaDAO.path))
+                {
+                    string query = "INSERT INTO personas (nombre,apellido,) values (@nombre,@apellido)";
+
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("nombre", persona.Nombre);
+                    command.Parameters.AddWithValue("apellido", persona.Apellido);
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        reader.GetInt32(0);
+                    }
+                }
+            }
+            catch (System.Exception ex)
+            {
+
+                throw new ExceptionPersonaDAO("Error al guardar", ex);
+            }
         }
 
-        public List<Persona> Leer()
-        {
-        }
+        //public List<Persona> Leer()
+        //{
+        //    try
+        //    {
+        //        using (SqlConnection connection = new SqlConnection(PersonaDAO.path))
+        //        {
+                    
+        //        }
+        //    }
+        //    catch (System.Exception)
+        //    {
 
-        public Persona LeerPorId (int id)
-        {
-        }
+        //        throw;
+        //    }
+        //}
 
-        public void Modificar(Persona persona)
-        {
-        }
+        //public Persona LeerPorId (int id)
+        //{
+        //}
 
-        public void Eliminar(int id)
-        {
-        }
+        //public void Modificar(Persona persona)
+        //{
+        //}
+
+        //public void Eliminar(int id)
+        //{
+        //}
     }
 }
